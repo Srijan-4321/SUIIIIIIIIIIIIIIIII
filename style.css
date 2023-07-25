@@ -1,0 +1,16 @@
+h3{
+    font-size: 25px !important;
+
+}
+.btn-success:hover{
+background-color: indianred;
+}
+canvas{
+    animation-name: Srijan;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Srijan{
+    from{box-shadow:3px 3px 50px red;}
+    to{box-shadow:3px 3px 50px yellow;}
+}
